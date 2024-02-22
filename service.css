@@ -1,0 +1,160 @@
+
+.banner_section {
+    width: 100%;
+    float: left;
+    background-color: #e05306;
+    height: auto;
+}
+
+#carouselExampleIndicators a.carousel-control-prev {
+    position: absolute;
+    left: 63%;
+    top: 180px;
+    background-color: #fff;
+    color: #000;
+}
+
+#carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-next {
+    width: 65px;
+    height: 65px;
+    background: #fff;
+    opacity: 1;
+    font-size: 30px;
+    color: #091e30;
+    border-radius: 100%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/left-aero.png);
+}
+
+#carouselExampleIndicators a.carousel-control-next {
+    position: absolute;
+    left: 64%;
+    top: 270px;
+    background-color: #1a1824;
+}
+
+#carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-next {
+    width: 65px;
+    height: 65px;
+    background: #fff;
+    opacity: 1;
+    font-size: 30px;
+    color: #091e30;
+    border-radius: 100%;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/right-aero.png);
+}
+
+.toggle_menu {
+    top: -15px;
+    position: relative;
+    left: 125px;
+}
+
+.logo {
+    position: relative;
+    left: -83px;
+}
+
+.round {
+    width: 100%;
+    float: left;
+    padding-left: 20px;
+}
+
+.number_text {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #fffdf6;
+    padding-left: 10px;
+}
+
+.line {
+    width: 100%;
+    float: left;
+    padding-left: 40px;
+}
+
+.taital_main {
+    width: 100%;
+    float: left;
+    margin-top: 80px;
+}
+
+.construction_text {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.building_text {
+    width: 100%;
+    float: left;
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.lorem_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 0px;
+}
+
+.contact_bt {
+    width: 35%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    border: 1px solid#ffffff;
+    border-radius: 5px;
+    background-color: transparent;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.contact_bt a {
+    color: #ffffff;
+}
+
+.contact_bt a:hover {
+    color: #000000;
+}
+
+.get_bt {
+    width: 35%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    border: 1px solid#ffffff;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: 20px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.get_bt a {
+    color: #ffffff;
+}
+
+.get_bt a:hover {
+    color: #000000;
+}

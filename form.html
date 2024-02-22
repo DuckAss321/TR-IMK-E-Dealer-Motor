@@ -1,0 +1,257 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <header>
+    <div class="searach">
+      <form class="d-flex" role="search">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0"></ul>
+        <h6 class="navbar-nav ms-auto mb-2 mb-lg-0">
+          Help Center
+          <li class="nav-item mx-4">
+            <a class="nav-link active" aria-current="page" href="#"
+              >Help Center</a
+            >
+          </li>
+        </h6>
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success" type="submit">
+          <img src="icon/Search icon.svg" alt="" />
+        </button>
+      </form>
+    </div>
+  </header>
+
+  <body>
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="icon/istana motor.svg" width="230"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-4">
+              <a class="nav-link active" aria-current="true" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link active" aria-disabled="page" href="#"
+                >Product</a
+              >
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link active" aria-disabled="true" href="#"
+                >Pesanan</a
+              >
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link active" aria-disabled="true" href="#"
+                >Service</a
+              >
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link active" aria-disabled="true" href="#"
+                ><button class="logout">Log Out</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <hr />
+    <!-- end navbar-->
+
+    <div id="container-form">
+      <nav class="left_nav"></nav>
+      <main>
+        <div class="box_form">
+          <form action="#">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2">Form Booking</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><label for="nama">Nama</label></td>
+                  <td><input type="text" id="nama" name="nama" /></td>
+                </tr>
+                <tr>
+                  <td><label for="email">Email</label></td>
+                  <td><input type="email" id="email" name="email" /></td>
+                </tr>
+                <tr>
+                  <td><label for="domisili">Domisili</label></td>
+                  <td><input type="text" id="domisili" name="domisili" /></td>
+                </tr>
+                <tr>
+                  <td><label for="no_hp">No Handphone</label></td>
+                  <td><input type="text" id="no_hp" name="no_hp" /></td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="jadwal_kedatangan">Jadwal Kedatangan</label>
+                  </td>
+                  <td>
+                    <input
+                      type="date"
+                      id="jadwal_kedatangan"
+                      name="jadwal_kedatangan"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="no_ktp">No KTP</label></td>
+                  <td><input type="text" id="no_ktp" name="no_ktp" /></td>
+                </tr>
+                <tr>
+                  <td><label for="pesan">Pesan</label></td>
+                  <td><textarea id="pesan" name="pesan"></textarea></td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <a href="home_fix.html">
+                    <button type="submit" class="kirim">Kirim</button></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </form>
+        </div>
+      </main>
+      <nav class="right_nav"></nav>
+    </div>
+    <!-- /.container -->
+
+    <hr class="horizontal-line">
+    
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Contact Kami</h5>
+            <ul class="list-unstyled quick-links">
+              <li>
+                <a href="https://www.instagram.com/sandirantika"
+                  ><i class="fa fa-angle-double-right"></i>Sandria</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/rajani_rajid"
+                  ><i class="fa fa-angle-double-right"></i>Rajid</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/carolusb_risky"
+                  ><i class="fa fa-angle-double-right"></i>Risky</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/isabella_guzman"
+                  ><i class="fa fa-angle-double-right"></i>Rai</a
+                >
+              </li>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Contact Kami</h5>
+            <ul class="list-unstyled quick-links">
+              <li>
+                <a href="https://www.instagram.com/sandirantika"
+                  ><i class="fa fa-angle-double-right"></i>Sandria</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/rajani_rajid"
+                  ><i class="fa fa-angle-double-right"></i>Rajid</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/carolusb_risky"
+                  ><i class="fa fa-angle-double-right"></i>Risky</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/isabella_guzman"
+                  ><i class="fa fa-angle-double-right"></i>Rai</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Contact Kami</h5>
+            <ul class="list-unstyled quick-links">
+              <li>
+                <a href="https://www.instagram.com/sandirantika"
+                  ><i class="fa fa-angle-double-right"></i>Sandria</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/rajani_rajid"
+                  ><i class="fa fa-angle-double-right"></i>Rajid</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/carolusb_risky"
+                  ><i class="fa fa-angle-double-right"></i>Risky</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/isabella_guzman"
+                  ><i class="fa fa-angle-double-right"></i>Rai</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white"
+          >
+            <p>
+              Web ini kami buat untuk memenuhi tugas Asdos IMK E. Serta memenuhi kebutuhan dari Client
+              yang telah kami wawancara.
+            </p>
+            <p class="h6">
+              © Kelompok Satu.<a
+                >IMK E</a
+              >
+            </p>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </section>
+    <!-- ./Footer -->
+
+    <script src="js/form.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
